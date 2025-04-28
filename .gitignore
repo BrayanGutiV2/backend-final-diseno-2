@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations
+*/migrations/*
+
+# Media and static files
+media/
+staticfiles/
+
+# Local environment settings
+.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Other
+*.mo
+*.pot
